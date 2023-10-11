@@ -1,14 +1,20 @@
-public  abstract class Pet {
-    private  int age;
-    private   Color color;
-    private  Sheltr sheltr;
+package workA;
+
+import workA.Color;
+
+public abstract class Pet {
+    protected int age;
+
+    protected Color color ;
+
+    protected Sheltr sheltr;
+
     private int generateDefaultAge(){
-        age = 20;
-        return age;
+        return age = 25;
     }
 
     public final String getInfo(){
-        return " age:" + getAge() + " color:" + getColor() + " sheltr:" + getSheltr().getName();
+        return " age:" + getAge() + " color:" + getColor() + " sheltr:" + getSheltr();
     }
 
     public int getAge() {

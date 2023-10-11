@@ -1,4 +1,8 @@
-public final class Dog extends  Pet {
+package workA;
+
+import workA.Color;
+
+public final class Dog extends Pet {
     private String name;
     private String breed;
     private String commands;
@@ -49,10 +53,6 @@ public final class Dog extends  Pet {
         this.commands = commands;
     }
 
-
-
-
-
     void makeVoice(String voice, int number) {
         System.out.println(voice);
     }
@@ -62,9 +62,9 @@ public final class Dog extends  Pet {
 
     }
 
-    @Override
-    public String getInfo() {
-        return super.getInfo() + name + " name " + breed + " breed " + commands + "  commands";
-    }
+ //   @Override
+   // public String getInfo() {
+     //   return super.getInfo() + name + " name " + breed + " breed " + commands + "  commands";
+    //}
 
 }

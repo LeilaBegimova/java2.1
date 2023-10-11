@@ -1,3 +1,5 @@
+package workA;
+
 public class Sheltr {
     private  String name;
     private  String address;
